@@ -1,7 +1,16 @@
 {
   "name": "nextjs-app-template",
+  "author": "Boonyarit Iamsa-ard",
+  "description": "A production-ready nextjs app template",
   "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/boonyarit-iamsaard/nextjs-app-template",
   "private": true,
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn-to-install-this-package"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
