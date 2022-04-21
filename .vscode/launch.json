@@ -2,22 +2,22 @@
   "version": "0.1.0",
   "configurations": [
     {
-      "name": "Next.js: debug server-side",
+      "name": "Debug Server",
       "type": "node-terminal",
       "request": "launch",
-      "command": "npm run dev"
+      "command": "yarn dev"
     },
     {
-      "name": "Next.js: debug client-side",
+      "name": "Debug Client",
       "type": "pwa-chrome",
       "request": "launch",
       "url": "http://localhost:3000"
     },
     {
-      "name": "Next.js: debug full-stack",
+      "name": "Debug Full",
       "type": "node-terminal",
       "request": "launch",
-      "command": "npm run dev",
+      "command": "yarn dev",
       "console": "integratedTerminal",
       "serverReadyAction": {
         "pattern": "started server on .+, url: (https?://.+)",
